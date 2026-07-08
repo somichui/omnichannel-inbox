@@ -3,15 +3,12 @@ import { PrismaService } from './prisma/prisma.service';
 import { MetaService } from './meta/meta.service';
 import { TelegramService } from './telegram/telegram.service';
 
-import { AppService } from './app.service';
-
 @Controller()
 export class AppController {
   constructor(
     private prisma: PrismaService,
     private metaService: MetaService,
-    private telegramService: TelegramService,
-    private appService: AppService
+    private telegramService: TelegramService
   ) {}
 
   @Get('inbox')
@@ -66,15 +63,40 @@ export class AppController {
     @Body('sourcePersonId') sourceId: string, 
     @Body('suggestionId') suggestionId: string
   ) {
-    return this.appService.mergePerson(targetId, sourceId, suggestionId);
-  }
+    return this.prisma.$transaction(async (tx) => {
+      const targetPerson = await tx.person.findUnique({ where: { id: targetId } });
+      const sourcePerson = await tx.person.findUnique({ where: { id: sourceId } });
 
-  @Post('person/:id/unmerge')
-  async unmergePerson(
-    @Param('id') originalPersonId: string,
-    @Body('identityIds') identityIds: string[]
-  ) {
-    return this.appService.unmergePerson(originalPersonId, identityIds);
+      if (targetPerson && sourcePerson && targetPerson.name && sourcePerson.name && targetPerson.name !== sourcePerson.name) {
+         await tx.person.update({
+           where: { id: targetId },
+           data: { name: `${targetPerson.name} | ${sourcePerson.name}` }
+         });
+      }
+
+      await tx.channelIdentity.updateMany({
+        where: { personId: sourceId },
+        data: { personId: targetId }
+      });
+
+      await tx.conversation.updateMany({
+        where: { personId: sourceId },
+        data: { personId: targetId }
+      });
+
+      if (suggestionId) {
+        await tx.mergeSuggestion.update({
+          where: { id: suggestionId },
+          data: { status: 'CONFIRMED', resolvedAt: new Date() }
+        });
+      }
+
+      await tx.person.delete({
+        where: { id: sourceId }
+      });
+
+      return { success: true };
+    });
   }
 
   @Post('message/send')

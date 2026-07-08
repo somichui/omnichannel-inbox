@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useInboxStore } from '../store/inboxStore';
-import { User, Tag, AlertTriangle, ShieldCheck, Link2, Split, Check } from 'lucide-react';
+import { User, Tag, AlertTriangle, ShieldCheck, Link2 } from 'lucide-react';
 
 export default function CustomerProfile() {
-  const { messages, activePersonId, pendingSuggestion, fetchSuggestions, unmergePerson } = useInboxStore();
-  const [isUnmerging, setIsUnmerging] = useState(false);
-  const [selectedIdentities, setSelectedIdentities] = useState<string[]>([]);
+  const { messages, activePersonId, pendingSuggestion, fetchSuggestions } = useInboxStore();
 
   useEffect(() => {
     fetchSuggestions();
@@ -43,13 +41,6 @@ export default function CustomerProfile() {
     }
   };
 
-  const handleUnmerge = async () => {
-    if (!activePerson || selectedIdentities.length === 0) return;
-    await unmergePerson(activePerson.id, selectedIdentities);
-    setIsUnmerging(false);
-    setSelectedIdentities([]);
-  };
-
   return (
     <div className="w-[320px] h-full glass-panel border-y-0 border-r-0 rounded-none bg-black/40 overflow-y-auto p-6 z-10 flex flex-col gap-6">
       <div className="text-center pt-4">
@@ -62,75 +53,6 @@ export default function CustomerProfile() {
           <span>Customer ID: {activePerson?.id.substring(0, 8)}...</span>
         </div>
       </div>
-
-      <div className="h-[1px] w-full bg-white/5 my-2"></div>
-
-      {/* Identities Section */}
-      {activePerson?.identities && activePerson.identities.length > 0 && (
-        <div className="flex flex-col gap-3">
-          <div className="flex items-center justify-between mb-1">
-            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider">Linked Profiles</h3>
-            {activePerson.identities.length > 1 && !isUnmerging && (
-              <button 
-                onClick={() => setIsUnmerging(true)}
-                className="text-[10px] text-sky-400 hover:text-sky-300 font-bold uppercase tracking-wider"
-              >
-                Split
-              </button>
-            )}
-          </div>
-          
-          <div className="flex flex-col gap-2">
-            {activePerson.identities.map(identity => {
-              const isSelected = selectedIdentities.includes(identity.id);
-              return (
-                <div 
-                  key={identity.id} 
-                  className={`bg-white/5 rounded-lg p-3 border flex items-center gap-3 transition-colors ${
-                    isUnmerging ? 'cursor-pointer hover:bg-white/10' : ''
-                  } ${isSelected ? 'border-sky-500/50 bg-sky-500/10' : 'border-white/5'}`}
-                  onClick={() => {
-                    if (!isUnmerging) return;
-                    if (isSelected) {
-                      setSelectedIdentities(prev => prev.filter(id => id !== identity.id));
-                    } else {
-                      setSelectedIdentities(prev => [...prev, identity.id]);
-                    }
-                  }}
-                >
-                  {isUnmerging && (
-                    <div className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 ${isSelected ? 'bg-sky-500 border-sky-500' : 'border-slate-500'}`}>
-                      {isSelected && <Check size={12} className="text-white" />}
-                    </div>
-                  )}
-                  <div className="overflow-hidden">
-                    <div className="text-xs text-slate-400 mb-0.5">{identity.channel}</div>
-                    <div className="text-sm font-medium text-white truncate">{identity.displayName || identity.externalId}</div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          {isUnmerging && (
-            <div className="flex gap-2 mt-2">
-              <button 
-                onClick={() => { setIsUnmerging(false); setSelectedIdentities([]); }}
-                className="flex-1 py-2 rounded-lg text-xs font-bold uppercase text-slate-400 bg-white/5 hover:bg-white/10"
-              >
-                Cancel
-              </button>
-              <button 
-                onClick={handleUnmerge}
-                disabled={selectedIdentities.length === 0}
-                className="flex-1 py-2 rounded-lg text-xs font-bold uppercase text-white bg-sky-500 hover:bg-sky-400 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-1"
-              >
-                <Split size={14} /> Unmerge
-              </button>
-            </div>
-          )}
-        </div>
-      )}
 
       <div className="h-[1px] w-full bg-white/5 my-2"></div>
 
