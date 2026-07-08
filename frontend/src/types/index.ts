@@ -27,7 +27,7 @@ export interface Message {
   id: string;
   conversationId: string;
   text: string;
-  direction: 'INCOMING' | 'OUTGOING';
+  direction: 'INBOUND' | 'OUTBOUND';
   channel: 'WHATSAPP' | 'INSTAGRAM' | 'MESSENGER';
   sentiment: string;
   intent: string;
