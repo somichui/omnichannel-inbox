@@ -19,6 +19,7 @@ interface InboxState {
   fetchInbox: () => Promise<void>;
   fetchSuggestions: () => Promise<void>;
   fetchCustomers: () => Promise<void>;
+  unmergePerson: (personId: string, identityIds: string[]) => Promise<void>;
 }
 
 export const useInboxStore = create<InboxState>((set) => ({
@@ -80,6 +81,26 @@ export const useInboxStore = create<InboxState>((set) => ({
       console.error('Failed to fetch customers:', e);
     } finally {
       set({ isLoading: false });
+    }
+  },
+
+  unmergePerson: async (personId: string, identityIds: string[]) => {
+    try {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+      const res = await fetch(`${apiUrl}/person/${personId}/unmerge`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ identityIds })
+      });
+      if (res.ok) {
+        // Refresh state
+        const state = useInboxStore.getState();
+        await state.fetchCustomers();
+        await state.fetchInbox();
+        state.setActivePerson(null);
+      }
+    } catch (e) {
+      console.error('Failed to unmerge person:', e);
     }
   }
 }));

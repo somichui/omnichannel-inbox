@@ -1,9 +1,10 @@
 export interface Identity {
   id: string;
   personId: string;
-  channel: 'WHATSAPP' | 'INSTAGRAM' | 'MESSENGER';
-  channelId: string;
-  channelName: string;
+  channel: 'WHATSAPP' | 'INSTAGRAM' | 'TELEGRAM';
+  externalId: string;
+  displayName: string | null;
+  createdAt: string;
 }
 
 export interface Person {
@@ -17,7 +18,7 @@ export interface Person {
 export interface Conversation {
   id: string;
   personId: string;
-  channel: 'WHATSAPP' | 'INSTAGRAM' | 'MESSENGER';
+  channel: 'WHATSAPP' | 'INSTAGRAM' | 'TELEGRAM';
   createdAt: string;
   updatedAt: string;
   person?: Person;
@@ -28,7 +29,7 @@ export interface Message {
   conversationId: string;
   text: string;
   direction: 'INBOUND' | 'OUTBOUND';
-  channel: 'WHATSAPP' | 'INSTAGRAM' | 'MESSENGER';
+  channel: 'WHATSAPP' | 'INSTAGRAM' | 'TELEGRAM';
   sentiment: string;
   intent: string;
   urgencyScore: number;
