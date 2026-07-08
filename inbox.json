@@ -1,0 +1,2637 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  "cmraxvnr30003t4od92xmz15h",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "/start",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:44:59.391Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvobj0004t4odqbkf74qj",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "Hello!",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:00.127Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvovr0005t4odedili8r3",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "yooo",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:00.855Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvpgd0006t4odkjj5wfvy",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "yooooooo",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:01.597Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvq0o0007t4odeoigspm8",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "/start",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:02.328Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvqkx0008t4odak65kxxr",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hello",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:03.057Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvr540009t4oduomsto0u",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hey",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:03.784Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvrpa000at4odmrgfess1",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "yerrr",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:04.510Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvs9p000bt4od2c23aito",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "/start",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:05.245Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvsu5000ct4od2br657pn",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hello",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:05.981Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvted000dt4odyyb3xuhw",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "/start",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:06.709Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxvtyo000et4od5m9ajy6k",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hello",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:07.440Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxw5m6000ft4odos6rsyxz",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "somisomi",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:22.542Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraxwgub000gt4odrc5d9j4m",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "ooyyee",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:45:37.091Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmray0wyf000ht4odg6dgnatn",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "somi somi",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:49:04.599Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmray2aoo000it4odm5j8fj7t",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "yo",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:50:09.048Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmray4gxx0000tcodj9hbhn1f",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "e",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:51:50.469Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmray4ivj0001tcod6vzpj3rr",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "eeee",
+                      "direction":  "OUTBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T17:51:52.975Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayg52h0000tgodu74b64yg",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order never arrived. I am worried",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:00:54.953Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayg5pw0001tgod6dnios26",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "yo",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:00:55.796Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraygfjt0002tgod3qlrp80e",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order never arrived. I\u0027m very worried",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:01:08.537Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayic6m0000icody7ks0yuq",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order never arrived. I am worried",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:02:37.486Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayinhf0001icod6ek9mz7c",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order isnt here. Im worried",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:02:52.131Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraykcv500008wodhhxfyrpz",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order isnt here. Im worried",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:04:11.681Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayktnu00018wodvj5wew32",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order isnt here. Im worried",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:04:33.450Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmraynu350000zsod4idkwmsx",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order isnt here",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:06:53.969Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayq8uz0000pwod1fcua49g",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "my order isnt here. Im worried",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Negative",
+                      "intent":  "Missing order",
+                      "urgencyScore":  8,
+                      "suggestedReply":  "I\u0027m so sorry to hear your order hasn\u0027t arrived and you\u0027re feeling worried. Please tell me your order number so I can look into this for you immediately.",
+                      "createdAt":  "2026-07-07T18:08:46.427Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayunmf0000lgodcqtgx5ou",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "order here. very satisfied",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Positive",
+                      "intent":  "Order satisfaction",
+                      "urgencyScore":  1,
+                      "suggestedReply":  "It\u0027s wonderful to hear you are very satisfied with your order! We\u0027re so glad we could provide a great experience.",
+                      "createdAt":  "2026-07-07T18:12:12.184Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayy3hj0001lgod90846vec",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "i would like to order",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Neutral",
+                      "intent":  "Order",
+                      "urgencyScore":  3,
+                      "suggestedReply":  "I\u0027d be happy to help you place an order! Please tell me what specific items you\u0027d like to purchase.",
+                      "createdAt":  "2026-07-07T18:14:52.711Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayygcl0002lgod9volh8rs",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "order a shirt",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Neutral",
+                      "intent":  "Order shirt",
+                      "urgencyScore":  3,
+                      "suggestedReply":  "I can certainly help you order a shirt! Please tell me which shirt you\u0027re interested in so I can best assist you.",
+                      "createdAt":  "2026-07-07T18:15:09.381Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayyrhc0003lgodhd4cqxwd",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "what all options",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Neutral",
+                      "intent":  "Ask options",
+                      "urgencyScore":  2,
+                      "suggestedReply":  "I\u0027d be happy to help you explore all your options! To give you the best information, could you please tell me a little more about what you\u0027re looking for?",
+                      "createdAt":  "2026-07-07T18:15:23.808Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayyz4x0004lgodoyrjf0g4",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "I\u0027d be happy to help you explore all your options! To give you the best information, could you please tell me a little more about what you\u0027re looking for?",
+                      "direction":  "OUTBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:15:33.729Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrayz2v10005lgod5g4s1y0r",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "a white shirt",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Neutral",
+                      "intent":  "Product mention",
+                      "urgencyScore":  1,
+                      "suggestedReply":  "Thank you for reaching out about a white shirt. To help me understand how to best assist you, could you please tell me a bit more about your request?",
+                      "createdAt":  "2026-07-07T18:15:38.557Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrazz33v0000ckod2cc10yeg",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hey, checking order",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Neutral",
+                      "intent":  "Check order",
+                      "urgencyScore":  4,
+                      "suggestedReply":  "I can certainly help you with that! Please provide your order number so I can quickly check the status for you.",
+                      "createdAt":  "2026-07-07T18:43:38.491Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrazz3ty0001ckodtou1umpn",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hey chexkijg on my order #48592",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Neutral",
+                      "intent":  "Check order status",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Hello! I understand you\u0027re inquiring about order #48592. I\u0027m happy to look into this for you right away.",
+                      "createdAt":  "2026-07-07T18:43:39.430Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrazz9gw0002ckodln8mwq09",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hey checking on my order #48592",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "Neutral",
+                      "intent":  "Check order status",
+                      "urgencyScore":  4,
+                      "suggestedReply":  "I understand you\u0027re eager for an update on order #48592. I\u0027m checking on its status for you right now and will get back to you shortly.",
+                      "createdAt":  "2026-07-07T18:43:46.736Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb00h380006ckodzu2sxi34",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  "Neutral",
+                      "intent":  "Order status",
+                      "urgencyScore":  6,
+                      "suggestedReply":  "Hello John, I understand you\u0027re eager for an update on your order #48592. Let me quickly check the shipping status for you right away.",
+                      "createdAt":  "2026-07-07T18:44:43.268Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb03ci40000c0odzdqab0hf",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  "Neutral",
+                      "intent":  "Order status inquiry",
+                      "urgencyScore":  6,
+                      "suggestedReply":  "",
+                      "createdAt":  "2026-07-07T18:46:57.292Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb03yfy0001c0odmywg7w4j",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:47:25.726Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb08hl70002c0od2iwk66d0",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:50:57.163Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb0ey7i0003c0odj9piqcqo",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:55:58.638Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb0jalg0000e8odw0u2pntn",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T18:59:21.316Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb0l8ku00005sodx3haiqup",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T19:00:52.014Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb0qzvq0000f4od2rp3tcfh",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  null,
+                      "intent":  null,
+                      "urgencyScore":  null,
+                      "suggestedReply":  null,
+                      "createdAt":  "2026-07-07T19:05:20.679Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb0s74b0000z4od0fy6wsy8",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "ORDER_STATUS_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Hello! Let me quickly check the shipping status for your order right away.",
+                      "createdAt":  "2026-07-07T19:06:16.715Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb115k10004z4odixip4eu9",
+                      "conversationId":  "cmrb115i10003z4odeb8tb956",
+                      "text":  "Hey, checking on my order #48592",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "ORDER_STATUS_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Hello! Let me quickly check the shipping status for your order right away.",
+                      "createdAt":  "2026-07-07T19:13:14.593Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb12fag0006z4odke8q4hbo",
+                      "conversationId":  "cmrb00h160005ckod5ll72s6r",
+                      "text":  "Hello! This is John from WhatsApp. Is my order #48592 shipped yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "WHATSAPP",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "ORDER_STATUS_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Hello! Let me quickly check the shipping status for your order right away.",
+                      "createdAt":  "2026-07-07T19:14:13.864Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb1400k0007z4odv9x36oqn",
+                      "conversationId":  "cmraxvnox0002t4od4lri48pv",
+                      "text":  "hey checking on my order #48592",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "ORDER_STATUS_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Hello! Let me quickly check the shipping status for your order right away.",
+                      "createdAt":  "2026-07-07T19:15:27.380Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb294nz00032oodumkm6oo7",
+                      "conversationId":  "cmrb294lw00022ood0eo48tam",
+                      "text":  "Hello! Did my order #48592 ship yet?",
+                      "direction":  "INBOUND",
+                      "channel":  "INSTAGRAM",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "ORDER_STATUS_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Hello! Let me quickly check the shipping status for your order right away.",
+                      "createdAt":  "2026-07-07T19:47:26.303Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb5lpt200030godh0abzqsw",
+                      "conversationId":  "cmrb5lpqz00020god0mqhr9yk",
+                      "text":  "random_text",
+                      "direction":  "INBOUND",
+                      "channel":  "INSTAGRAM",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "GENERAL_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Thank you for reaching out! We are looking into this for you.",
+                      "createdAt":  "2026-07-07T21:21:12.422Z",
+                      "person":  {
+                                     "id":  "cmrb5lpcp00000godfq7t39cs",
+                                     "name":  "IG User (12334)",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  null,
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T21:21:11.833Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb5lpgv00010godxddy18va",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "12334",
+                                                            "displayName":  "IG User (12334)",
+                                                            "personId":  "cmrb5lpcp00000godfq7t39cs",
+                                                            "createdAt":  "2026-07-07T21:21:11.983Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb82m5z00040god6fpoo2pe",
+                      "conversationId":  "cmrb115i10003z4odeb8tb956",
+                      "text":  "yo",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "GENERAL_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Thank you for reaching out! We are looking into this for you.",
+                      "createdAt":  "2026-07-07T22:30:20.087Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  },
+                  {
+                      "id":  "cmrb8g1wd00050godt4pojjll",
+                      "conversationId":  "cmrb115i10003z4odeb8tb956",
+                      "text":  "hey",
+                      "direction":  "INBOUND",
+                      "channel":  "TELEGRAM",
+                      "sentiment":  "NEUTRAL",
+                      "intent":  "GENERAL_INQUIRY",
+                      "urgencyScore":  5,
+                      "suggestedReply":  "Thank you for reaching out! We are looking into this for you.",
+                      "createdAt":  "2026-07-07T22:40:47.005Z",
+                      "person":  {
+                                     "id":  "cmrb00gn90003ckoduiboax4t",
+                                     "name":  "s z | John Doe | InstaShopper",
+                                     "email":  null,
+                                     "phone":  null,
+                                     "attributes":  {
+                                                        "orderNumbers":  [
+                                                                             "48592"
+                                                                         ]
+                                                    },
+                                     "notes":  null,
+                                     "createdAt":  "2026-07-07T18:44:42.693Z",
+                                     "identities":  [
+                                                        {
+                                                            "id":  "cmrb00gr90004ckoda2mjlzey",
+                                                            "channel":  "WHATSAPP",
+                                                            "externalId":  "15551234567",
+                                                            "displayName":  "John Doe",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T18:44:42.837Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmrb294bp00012ood0o2foxf1",
+                                                            "channel":  "INSTAGRAM",
+                                                            "externalId":  "9988776655",
+                                                            "displayName":  "InstaShopper",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T19:47:25.861Z"
+                                                        },
+                                                        {
+                                                            "id":  "cmraxvnek0001t4odfj14ekil",
+                                                            "channel":  "TELEGRAM",
+                                                            "externalId":  "7835017023",
+                                                            "displayName":  "s",
+                                                            "personId":  "cmrb00gn90003ckoduiboax4t",
+                                                            "createdAt":  "2026-07-07T17:44:58.864Z"
+                                                        }
+                                                    ]
+                                 }
+                  }
+              ],
+    "Count":  52
+}
