@@ -1,12 +1,14 @@
 import { Controller, Get, Post, Param, Body } from '@nestjs/common';
 import { PrismaService } from './prisma/prisma.service';
 import { MetaService } from './meta/meta.service';
+import { TelegramService } from './telegram/telegram.service';
 
 @Controller()
 export class AppController {
   constructor(
     private prisma: PrismaService,
-    private metaService: MetaService
+    private metaService: MetaService,
+    private telegramService: TelegramService
   ) {}
 
   @Get('inbox')
@@ -115,6 +117,16 @@ export class AppController {
         const success = await this.metaService.sendInstagramMessage(igIdentity.externalId, text);
         if (!success) {
           return { success: false, error: 'Failed to send to Instagram' };
+        }
+      }
+    }
+
+    if (conv.channel === 'TELEGRAM') {
+      const tgIdentity = conv.person.identities.find(id => id.channel === 'TELEGRAM');
+      if (tgIdentity) {
+        const success = await this.telegramService.sendTelegramMessage(tgIdentity.externalId, text);
+        if (!success) {
+          return { success: false, error: 'Failed to send to Telegram' };
         }
       }
     }

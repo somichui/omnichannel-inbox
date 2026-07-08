@@ -99,4 +99,14 @@ export class TelegramService {
 
     this.logger.log('Message saved, emitted, and queued for AI analysis');
   }
+
+  async sendTelegramMessage(externalId: string, text: string): Promise<boolean> {
+    try {
+      await this.bot.sendMessage(externalId, text);
+      return true;
+    } catch (e) {
+      this.logger.error(`Failed to send Telegram message: ${e}`);
+      return false;
+    }
+  }
 }
