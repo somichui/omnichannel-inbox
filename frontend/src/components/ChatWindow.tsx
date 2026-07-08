@@ -99,7 +99,7 @@ export default function ChatWindow() {
         })}
 
         {/* AI Suggested Reply Bubble */}
-        {latestMessage?.suggestedReply && latestMessage.direction === 'INBOUND' && (Date.now() - new Date(latestMessage.createdAt).getTime() < 3600000) && (
+        {latestMessage?.suggestedReply && latestMessage.direction === 'INCOMING' && (
           <div className="flex flex-col items-start animate-fade-in">
             <div 
               onClick={() => setInputText(latestMessage.suggestedReply)}
