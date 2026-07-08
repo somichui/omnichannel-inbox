@@ -18,8 +18,11 @@ export default function ConversationList() {
 
   // Get the latest message for each person to display
   const conversationSummaries = Object.values(grouped).map(convoMessages => {
+    const visibleMessages = convoMessages.filter(m => !m.deletedForMe);
+    if (visibleMessages.length === 0) return null;
+
     // Sort to ensure the last one is the latest
-    const sorted = [...convoMessages].sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
+    const sorted = [...visibleMessages].sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
     const latest = sorted[sorted.length - 1];
     return {
       personId: latest.person?.id || latest.conversationId,
@@ -28,7 +31,8 @@ export default function ConversationList() {
       channel: latest.channel,
       unreadCount: sorted.filter(m => m.direction === 'INBOUND').length // Mock unread
     };
-  }).sort((a, b) => new Date(b.latestMessage.createdAt).getTime() - new Date(a.latestMessage.createdAt).getTime());
+  }).filter((c): c is NonNullable<typeof c> => c !== null)
+  .sort((a, b) => new Date(b.latestMessage.createdAt).getTime() - new Date(a.latestMessage.createdAt).getTime());
 
   if (isLoading) {
     return (
@@ -72,11 +76,13 @@ export default function ConversationList() {
                   <h3 className="font-semibold text-sm truncate text-white">{convo.person?.name || 'Unknown User'}</h3>
                   <span className="text-xs text-slate-400 shrink-0 ml-2">{time}</span>
                 </div>
-                <p className="text-xs text-slate-400 truncate w-[180px]">
-                  {convo.latestMessage.direction === 'OUTBOUND' ? 'You: ' : ''}{convo.latestMessage.text}
+                <p className={`text-xs truncate w-[180px] ${convo.latestMessage.deletedForEveryone ? 'text-slate-500 italic' : 'text-slate-400'}`}>
+                  {convo.latestMessage.deletedForEveryone ? 'This message was deleted' : (
+                    <>{convo.latestMessage.direction === 'OUTBOUND' ? 'You: ' : ''}{convo.latestMessage.text}</>
+                  )}
                 </p>
                 
-                {convo.latestMessage.urgencyScore > 0.7 && (
+                {(convo.latestMessage.urgencyScore || 0) > 0.7 && (
                   <div className="mt-2 inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-red-500/10 text-red-400 border border-red-500/20">
                     Urgent
                   </div>

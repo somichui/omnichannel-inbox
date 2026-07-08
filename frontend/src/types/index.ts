@@ -31,8 +31,10 @@ export interface Message {
   channel: 'WHATSAPP' | 'INSTAGRAM' | 'MESSENGER';
   sentiment: string;
   intent: string;
-  urgencyScore: number;
-  suggestedReply: string;
+  urgencyScore?: number;
+  suggestedReply?: string;
+  deletedForMe?: boolean;
+  deletedForEveryone?: boolean;
   createdAt: string;
   person?: Person;
 }

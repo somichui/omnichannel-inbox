@@ -7,6 +7,7 @@ import { EventsModule } from './events/events.module';
 import { QueueModule } from './queue/queue.module';
 import { BullModule } from '@nestjs/bullmq';
 import { MetaModule } from './meta/meta.module';
+import { MessageModule } from './message/message.module';
 import Redis from 'ioredis';
 
 @Module({
@@ -17,7 +18,7 @@ import Redis from 'ioredis';
     PrismaModule, 
     EventsModule, 
     QueueModule, 
-    TelegramModule, MetaModule
+    TelegramModule, MetaModule, MessageModule
   ],
   controllers: [AppController],
   providers: [AppService],

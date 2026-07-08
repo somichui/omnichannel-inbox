@@ -100,12 +100,22 @@ export class TelegramService {
     this.logger.log('Message saved, emitted, and queued for AI analysis');
   }
 
-  async sendTelegramMessage(externalId: string, text: string): Promise<boolean> {
+  async sendTelegramMessage(externalId: string, text: string): Promise<any> {
     try {
-      await this.bot.sendMessage(externalId, text);
-      return true;
+      const msg = await this.bot.sendMessage(externalId, text);
+      return msg;
     } catch (e) {
       this.logger.error(`Failed to send Telegram message: ${e}`);
+      return null;
+    }
+  }
+
+  async deleteTelegramMessage(chatId: string | number, messageId: number): Promise<boolean> {
+    try {
+      await this.bot.deleteMessage(chatId, messageId);
+      return true;
+    } catch (e) {
+      this.logger.error(`Failed to delete Telegram message: ${e}`);
       return false;
     }
   }

@@ -41,6 +41,24 @@ export default function ChatWindow() {
     }
   };
 
+  const [hoveredMessage, setHoveredMessage] = useState<string | null>(null);
+  const [showMenuFor, setShowMenuFor] = useState<string | null>(null);
+
+  const handleDeleteMessage = async (msgId: string, type: 'FOR_ME' | 'FOR_EVERYONE') => {
+    try {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+      await fetch(`${apiUrl}/message/${msgId}`, {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type })
+      });
+      setShowMenuFor(null);
+      fetchInbox();
+    } catch (e) {
+      console.error('Failed to delete message', e);
+    }
+  };
+
   const activeMessages = messages.filter(m => (m.person?.id || m.conversationId) === activePersonId)
     .sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
 
@@ -65,7 +83,7 @@ export default function ChatWindow() {
   }
 
   return (
-    <div className="flex-1 h-full flex flex-col relative z-0">
+    <div className="flex-1 h-full flex flex-col relative z-0" onClick={() => setShowMenuFor(null)}>
       {/* Header */}
       <div className="h-[88px] w-full border-b border-white/5 flex items-center px-8 shrink-0 bg-black/20 backdrop-blur-md">
         <div className="w-12 h-12 rounded-full bg-slate-800 border border-white/10 overflow-hidden mr-4 shadow-[0_0_15px_rgba(255,255,255,0.05)]">
@@ -75,7 +93,7 @@ export default function ChatWindow() {
           <h2 className="text-lg font-semibold text-white">{activePerson?.name || 'Unknown User'}</h2>
           <div className="flex items-center gap-2 mt-0.5">
             <span className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.5)]"></span>
-            <span className="text-xs text-slate-400">Online via {activeMessages[0]?.channel.toLowerCase()}</span>
+            <span className="text-xs text-slate-400">Online via {activeMessages[0]?.channel?.toLowerCase() || 'unknown'}</span>
           </div>
         </div>
       </div>
@@ -83,16 +101,64 @@ export default function ChatWindow() {
       {/* Messages Area */}
       <div className="flex-1 overflow-y-auto px-8 py-6 flex flex-col gap-6">
         {activeMessages.map((msg, idx) => {
+          if (msg.deletedForMe) return null;
+
           const isOutgoing = msg.direction === 'OUTBOUND';
           const time = new Date(msg.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
           
-          // Show date separator logic could go here
-          
-          return (
-            <div key={msg.id} className={`flex flex-col ${isOutgoing ? 'items-end' : 'items-start'} animate-fade-in`}>
-              <div className={`msg-bubble ${isOutgoing ? 'msg-outgoing' : 'msg-incoming'}`}>
-                {msg.text}
+          if (msg.deletedForEveryone) {
+            return (
+              <div key={msg.id} className={`flex flex-col ${isOutgoing ? 'items-end' : 'items-start'} animate-fade-in`}>
+                <div className="px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-500 text-sm italic">
+                  This message was deleted
+                </div>
               </div>
+            );
+          }
+
+          return (
+            <div 
+              key={msg.id} 
+              className={`flex flex-col ${isOutgoing ? 'items-end' : 'items-start'} animate-fade-in relative`}
+              onMouseEnter={() => setHoveredMessage(msg.id)}
+              onMouseLeave={() => setHoveredMessage(null)}
+            >
+              <div className={`flex items-center gap-2 ${isOutgoing ? 'flex-row-reverse' : 'flex-row'}`}>
+                <div className={`msg-bubble ${isOutgoing ? 'msg-outgoing' : 'msg-incoming'}`}>
+                  {msg.text}
+                </div>
+                
+                {/* Delete Context Menu */}
+                <div className="relative">
+                  {(hoveredMessage === msg.id || showMenuFor === msg.id) && (
+                    <button 
+                      onClick={(e) => { e.stopPropagation(); setShowMenuFor(showMenuFor === msg.id ? null : msg.id); }}
+                      className="p-1 rounded-full hover:bg-white/10 text-slate-400 transition-colors"
+                    >
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+                    </button>
+                  )}
+                  {showMenuFor === msg.id && (
+                    <div className={`absolute top-8 ${isOutgoing ? 'right-0' : 'left-0'} w-40 bg-slate-900 border border-white/10 rounded-xl shadow-xl overflow-hidden z-50 animate-in fade-in zoom-in-95 duration-100`}>
+                      <button 
+                        onClick={(e) => { e.stopPropagation(); handleDeleteMessage(msg.id, 'FOR_ME'); }}
+                        className="w-full text-left px-4 py-2.5 text-sm text-slate-300 hover:bg-white/5 transition-colors"
+                      >
+                        Delete for me
+                      </button>
+                      {isOutgoing && (
+                        <button 
+                          onClick={(e) => { e.stopPropagation(); handleDeleteMessage(msg.id, 'FOR_EVERYONE'); }}
+                          className="w-full text-left px-4 py-2.5 text-sm text-rose-400 hover:bg-rose-500/10 transition-colors"
+                        >
+                          Delete for everyone
+                        </button>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+              
               <span className="text-[10px] text-slate-500 mt-1.5 px-1">{time}</span>
             </div>
           );
@@ -102,7 +168,7 @@ export default function ChatWindow() {
         {latestMessage?.suggestedReply && latestMessage.direction === 'INBOUND' && (Date.now() - new Date(latestMessage.createdAt).getTime() < 300000) && (
           <div className="flex flex-col items-start animate-fade-in">
             <div 
-              onClick={() => setInputText(latestMessage.suggestedReply)}
+              onClick={() => setInputText(latestMessage.suggestedReply || '')}
               className="inline-flex items-start gap-3 bg-indigo-500/10 border border-indigo-500/30 hover:border-indigo-400 hover:bg-indigo-500/20 rounded-2xl rounded-bl-sm p-4 max-w-[75%] backdrop-blur-md cursor-pointer transition-all shadow-[0_4px_16px_rgba(99,102,241,0.15)] group"
             >
               <Sparkles size={18} className="text-indigo-400 shrink-0 mt-0.5 group-hover:animate-pulse" />

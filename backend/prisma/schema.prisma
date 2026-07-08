@@ -41,18 +41,20 @@ model Conversation {
 }
 
 model Message {
-  id             String   @id @default(cuid())
-  conversation   Conversation @relation(fields: [conversationId], references: [id])
-  conversationId String
-  direction      Direction   // INBOUND | OUTBOUND
-  channel        Channel
-  rawPayload     Json
-  text           String
-  sentiment      String?
-  intent         String?
-  urgencyScore   Float?
-  suggestedReply String?
-  createdAt      DateTime @default(now())
+  id                 String   @id @default(cuid())
+  conversation       Conversation @relation(fields: [conversationId], references: [id])
+  conversationId     String
+  direction          Direction   // INBOUND | OUTBOUND
+  channel            Channel
+  rawPayload         Json
+  text               String
+  sentiment          String?
+  intent             String?
+  urgencyScore       Float?
+  suggestedReply     String?
+  deletedForMe       Boolean  @default(false)
+  deletedForEveryone Boolean  @default(false)
+  createdAt          DateTime @default(now())
 }
 
 model MergeSuggestion {

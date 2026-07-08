@@ -36,6 +36,8 @@ export class AppController {
       intent: m.intent,
       urgencyScore: m.urgencyScore,
       suggestedReply: m.suggestedReply,
+      deletedForMe: m.deletedForMe,
+      deletedForEveryone: m.deletedForEveryone,
       createdAt: m.createdAt,
       person: m.conversation.person
     }));
@@ -121,13 +123,16 @@ export class AppController {
       }
     }
 
+    let rawPayloadToSave: any = {};
+
     if (conv.channel === 'TELEGRAM') {
       const tgIdentity = conv.person.identities.find(id => id.channel === 'TELEGRAM');
       if (tgIdentity) {
-        const success = await this.telegramService.sendTelegramMessage(tgIdentity.externalId, text);
-        if (!success) {
+        const tgMsg = await this.telegramService.sendTelegramMessage(tgIdentity.externalId, text);
+        if (!tgMsg) {
           return { success: false, error: 'Failed to send to Telegram' };
         }
+        rawPayloadToSave = tgMsg;
       }
     }
 
@@ -137,7 +142,7 @@ export class AppController {
         direction: 'OUTBOUND',
         channel: conv.channel,
         text,
-        rawPayload: {}
+        rawPayload: rawPayloadToSave
       }
     });
 
