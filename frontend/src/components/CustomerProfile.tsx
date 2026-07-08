@@ -14,7 +14,7 @@ export default function CustomerProfile() {
   const activeMessages = messages.filter(m => (m.person?.id || m.conversationId) === activePersonId);
   const activePerson = activeMessages.length > 0 ? activeMessages[0].person : null;
   const absoluteLatest = activeMessages.length > 0 ? activeMessages[activeMessages.length - 1] : null;
-  const latestMessage = absoluteLatest?.direction === 'INBOUND' ? absoluteLatest : null;
+  const latestMessage = absoluteLatest?.direction === 'INCOMING' ? absoluteLatest : null;
 
   // Check if current person is involved in a pending merge suggestion
   const activeSuggestion = pendingSuggestion && 
