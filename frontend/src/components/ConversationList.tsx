@@ -73,7 +73,7 @@ export default function ConversationList() {
                   <span className="text-xs text-slate-400 shrink-0 ml-2">{time}</span>
                 </div>
                 <p className="text-xs text-slate-400 truncate w-[180px]">
-                  {convo.latestMessage.direction === 'OUTGOING' ? 'You: ' : ''}{convo.latestMessage.text}
+                  {convo.latestMessage.direction === 'OUTBOUND' ? 'You: ' : ''}{convo.latestMessage.text}
                 </p>
                 
                 {convo.latestMessage.urgencyScore > 0.7 && (
