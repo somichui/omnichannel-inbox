@@ -26,7 +26,7 @@ export default function ConversationList() {
       latestMessage: latest,
       person: latest.person,
       channel: latest.channel,
-      unreadCount: sorted.filter(m => m.direction === 'INCOMING').length // Mock unread
+      unreadCount: sorted.filter(m => m.direction === 'INBOUND').length // Mock unread
     };
   }).sort((a, b) => new Date(b.latestMessage.createdAt).getTime() - new Date(a.latestMessage.createdAt).getTime());
 
